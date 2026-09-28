@@ -47,4 +47,19 @@ uv run python scripts/verify_submission.py https://github.com/Alirzeanoroozi/amp
 
 ## License
 
-BSD-3-Clause
+BSD-3-Clause — free to use, modify, and redistribute. See [LICENSE](LICENSE).
+
+
+## Data
+
+We use the Therapeutic Peptides dataset (Xiao et al., 2025)
+for training and evaluation. We retain only peptides com-
+posed of the 20 canonical amino acids (|V| = 20) with
+length between 5 and 30 residues.
+
+Xiao, B., Zhou, Y., Zhao, L., Huang, H., Fei, X., and
+Zhang, Y.-B. A comprehensive dataset of therapeu-
+tic peptides on multi-function property and structure
+information. Scientific Data, 12(1):1213, 2025. doi:
+10.1038/s41597-025-05528-1. URL https://doi.
+org/10.1038/s41597-025-05528-1.
